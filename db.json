@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "name": "Savage AXIS XP .270 Winchester Bolt-Action Rifle",
+      "price": "$329.99",
+      "quantity": "12",
+      "seller": "guns.com",
+      "phone": "345-242-6777",
+      "image": "https://s7d2.scene7.com/is/image/academy/20166685?$pdp-main-desktop$",
+      "description": "The Savage AXIS XP .270 Winchester Bolt-Action Rifle is designed with a carbon-steel barrel and a synthetic stock. The rifle also features a matte finish and a tang safety. Made in USA.",
+      "id": 3
+    },
+    {
+      "name": "Henry Golden Boy .22 Lever-Action Rifle",
+      "price": "$449.99",
+      "quantity": "10",
+      "seller": "guns.com",
+      "phone": "564-234-2334",
+      "image": "https://s7d2.scene7.com/is/image/academy/10093634?$d-plp-product-image$",
+      "description": "The Henry Golden Boy .22 Lever-Action Rifle features a 20\" blued octagonal barrel and an American walnut stock. The rifle can shoot 16 rounds of .22LR ammunition and 21 rounds of .22 Short ammunition. Adjustable buckhorn rear sight and beaded front sight.",
+      "id": 4
+    },
+    {
+      "name": "Taurus M605 .357 Magnum Revolver",
+      "price": "$329.99",
+      "quantity": "4",
+      "seller": "guns.com",
+      "phone": "777-888-9999",
+      "image": "https://assets.academy.com/mgen/13/20005213.jpg?is=150,150?$d-plp-top-categories$",
+      "description": "Designed with a polymer frame, the Taurus M605 .357 Magnum Revolver features a 2-inch barrel and a leather poly grip. This single/double-action revolver also comes with a fixed fiber-optic front sight and a fixed rear sight.",
+      "id": 5
+    },
+    {
+      "name": "Smith & Wesson M&P15 Sport II 5.56 NATO Semiautomatic Rifle",
+      "price": "$679.99",
+      "quantity": "5",
+      "seller": "guns.com",
+      "phone": "567-344-6788",
+      "image": "https://s7d2.scene7.com/is/image/academy/10591214?$pdp-gallery-ng$",
+      "description": "The Smith & Wesson M&P15 Sport II 5.56 NATO Semiautomatic Rifle features a polymer grip, a 4140 steel barrel with an Armornite® corrosion-resistant finish and 7075 TG and aluminum construction. The semiautomatic rifle has an adjustable A2 post front sight and a folding Magpul® MBUS® rear sight.",
+      "id": 6
+    },
+    {
+      "name": "Heritage Rough Rider .22 LR Revolver",
+      "price": "$229.99",
+      "quantity": "2",
+      "seller": "guns.com",
+      "phone": "343-567-1234",
+      "image": "https://s7d2.scene7.com/is/image/academy/20080861?$pdp-gallery-ng$",
+      "description": "The Heritage Rough Rider .22 LR Revolver is a single-action revolver with a 6-round capacity and a blued barrel finish. This revolver features a cocobolo stock, fixed front and rear sights and a manual safety. Made in USA.",
+      "id": 7
+    },
+    {
+      "name": "Ruger American 6.5 Creedmoor Rifle",
+      "price": "$529.99",
+      "quantity": "4",
+      "seller": "guns.com",
+      "phone": "456-567-3456",
+      "image": "https://s7d2.scene7.com/is/image/academy/20284097?$pdp-gallery-ng$",
+      "description": "Whether you're out hunting or at target practice, use the Ruger American 6.5 Creedmoor Rifle for premium performance. The Go Wild® Camo I-M Brush stock is lightweight with forend contouring and has a factory-installed Picatinny scope base. The Ruger Marksman Adjustable™ trigger has an adjustable pull weight, while the visible tang safety is accessible for quick adjustments.",
+      "id": 8
+    },
+    {
+      "name": "Heritage Rough Rider .22 LR/.22 WMR Revolver",
+      "price": "$219.99",
+      "quantity": "8",
+      "seller": "guns.com",
+      "phone": "654-678-1234",
+      "image": "https://s7d2.scene7.com/is/image/academy/10402271?$pdp-gallery-ng$",
+      "description": "The Heritage Rough Rider .22 LR/.22 WMR Revolver features single action with a 6-round capacity and a camo laminate grip. Steel ramp front sight and a notched rear sight. Blued finish.",
+      "id": 9
+    }
+  ]
+}
