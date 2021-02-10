@@ -79,6 +79,46 @@
       "image": "https://s7d2.scene7.com/is/image/academy/20076800?$pdp-gallery-ng$",
       "description": "Built with a blued steel frame, the Browning Buck Mark Plus UDX .22 LR Pistol also features a slab-side barrel and a crossbolt safety. The gun also comes outfitted with rosewood Ultragrip DX grips. This pistol offers a 10+1-round capacity and features single action.",
       "id": 10
+    },
+    {
+      "name": "Browning X-Bolt Pro Long-Range 6.5 Creedmoor Bolt-Action Rifle",
+      "price": "$1,899",
+      "quantity": "3",
+      "seller": "guns.com",
+      "phone": "456-234-2343",
+      "image": "https://s7d2.scene7.com/is/image/academy/20084816?$pdp-gallery-ng$",
+      "description": "Made with a carbon-fiber stock, this Browning X-Bolt Pro Long-Range 6.5 Creedmoor Bolt-Action Rifle also features a stainless-steel sporter barrel with a fluted design. The stainless-steel receiver is drilled and tapped to accommodate your scope.",
+      "id": 11
+    },
+    {
+      "name": "Mossberg 590 Shockwave 12 Gauge Pump-Action Shotgun",
+      "price": "$399",
+      "quantity": "20",
+      "seller": "guns.com",
+      "phone": "565-565-7878",
+      "image": "https://s7d2.scene7.com/is/image/academy/20114275?$pdp-main-desktop$",
+      "description": "Topped with a bead sight, the Mossberg 590 Shockwave 12 Gauge Pump-Action Shotgun features a 14.375-inch heavy-walled barrel with a matte-blued finish. This shotgun comes with a cylinder bore choke and a 6-round capacity.",
+      "id": 12
+    },
+    {
+      "name": "Ruger AR-556 5.56 Semiautomatic Rifle",
+      "price": "$679",
+      "quantity": "6",
+      "seller": "guns.com",
+      "phone": "343-343-2323",
+      "image": "https://s7d2.scene7.com/is/image/academy/10424022?$pdp-gallery-ng$",
+      "description": "The Ruger AR-556 5.56 Semiautomatic Rifle is a semiautomatic rifle with a 30-round capacity that features a cold hammer-forged, medium contour, 1/2\" - 28 threaded barrel with a matte, corrosion-resistant, Type III hard-coat anodized finish, a 6-position telescoping M4-style buttstock with a MIL-SPEC buffer tube and an ergonomic pistol grip with heat-resistant, glass-filled nylon handguards. Includes a 30-round Magpul® PMAG® magazine.",
+      "id": 13
+    },
+    {
+      "name": "Ruger Guide Gun .375 Ruger Bolt-Action Rifle Left-handed",
+      "price": "$1,079",
+      "quantity": "12",
+      "seller": "guns.com",
+      "phone": "565-312-2323",
+      "image": "https://s7d2.scene7.com/is/image/academy/20080947?$pdp-gallery-ng$",
+      "description": "This Ruger Guide Gun .375 Ruger Bolt-Action Rifle Left-handed is outfitted with a laminate stock with a Green Mountain finish. The cold-hammer-forged barrel offers a 20-inch length.",
+      "id": 14
     }
   ]
 }
