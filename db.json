@@ -69,6 +69,16 @@
       "image": "https://s7d2.scene7.com/is/image/academy/10402271?$pdp-gallery-ng$",
       "description": "The Heritage Rough Rider .22 LR/.22 WMR Revolver features single action with a 6-round capacity and a camo laminate grip. Steel ramp front sight and a notched rear sight. Blued finish.",
       "id": 9
+    },
+    {
+      "name": "Browning Buck Mark Plus UDX .22 LR Pistol",
+      "price": "$499",
+      "quantity": "5",
+      "seller": "guns.com",
+      "phone": "677-345-6767",
+      "image": "https://s7d2.scene7.com/is/image/academy/20076800?$pdp-gallery-ng$",
+      "description": "Built with a blued steel frame, the Browning Buck Mark Plus UDX .22 LR Pistol also features a slab-side barrel and a crossbolt safety. The gun also comes outfitted with rosewood Ultragrip DX grips. This pistol offers a 10+1-round capacity and features single action.",
+      "id": 10
     }
   ]
 }
