@@ -77,7 +77,7 @@ function render() {
 //Start Edit
 $('body').on('click', '.edit-btn', function () {
     let id = this.id
-    fetch(`https://weapons-kg.herokuapp.com/api/${id}`)
+    fetch(`https://weapons-kg.herokuapp.com/api${id}`)
         .then(res => res.json())
         .then(data => {
             $('.name-inp-edit').val(data.name)
