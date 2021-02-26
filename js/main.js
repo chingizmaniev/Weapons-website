@@ -13,7 +13,7 @@ $('.search').on('input', (e) => {
 
 // Пагинация старт
 function getPagination() {
-    fetch(`http://localhost:8003/products`)
+    fetch(`http://localhost:8000/products`)
         .then(res => res.json())
         .then(data => {
             countPage = Math.ceil(data.length / 6)
@@ -48,7 +48,7 @@ $('.next-btn').on('click', function () {
 
 //Старт Read
 function render() {
-    fetch(`http://localhost:8003/products?_page=${page}&_limit=6&q=${searchValue}`)
+    fetch(`http://localhost:8000/products?_page=${page}&_limit=6&q=${searchValue}`)
         .then(res => res.json())
         .then(data => {
             $('.products-block').html('')
@@ -77,7 +77,7 @@ function render() {
 //Start Edit
 $('body').on('click', '.edit-btn', function () {
     let id = this.id
-    fetch(`http://localhost:8003/products/${id}`)
+    fetch(`http://localhost:8000/products/${id}`)
         .then(res => res.json())
         .then(data => {
             $('.name-inp-edit').val(data.name)
@@ -107,7 +107,7 @@ $('.save-btn').on('click', function () {
         image: $('.image-inp-edit').val(),
         description: $('.description-inp-edit').val()
     }
-    fetch(`http://localhost:8003/products/${id}`, {
+    fetch(`http://localhost:8000/products/${id}`, {
         method: 'PATCH',
         body: JSON.stringify(editedProduct),
         headers: {
@@ -142,7 +142,7 @@ $('.add-btn').on('click', (e) => {
         image: $('.image-inp').val(),
         description: $('.description-inp').val()
     }
-    fetch(`http://localhost:8003/products`, {
+    fetch(`http://localhost:8000/products`, {
         method: 'POST',
         body: JSON.stringify(newProduct),
         headers: {
@@ -175,7 +175,7 @@ $('.add-main').on('click', () => {
 //Delete start
 $('body').on('click', '.delete-btn', function () {
     let id = this.id
-    fetch(`http://localhost:8003/products/${id}`, {
+    fetch(`http://localhost:8000/products/${id}`, {
         method: 'DELETE'
     })
         .then(() => render())
