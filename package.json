@@ -5,6 +5,8 @@
   "repository": "https://github.com/chingizmaniev/Weapons-website.git",
   "author": "Cobbmanu <cmaniev@gmail.com>",
   "license": "MIT",
+  "homepage": "https://chingizmaniev.github.io/Contact-Book/",
+  "private": true,
   "scripts": {
     "start": "node server.js",
     "deploy": "gh-pages -d build"
