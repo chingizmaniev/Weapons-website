@@ -13,7 +13,7 @@ $('.search').on('input', (e) => {
 
 // Пагинация старт
 function getPagination() {
-    fetch(`https://weapons-kg.herokuapp.com/products`)
+    fetch(`https://weapons-kg.herokuapp.com/products/api`)
         .then(res => res.json())
         .then(data => {
             countPage = Math.ceil(data.length / 6)
@@ -48,7 +48,7 @@ $('.next-btn').on('click', function () {
 
 //Старт Read
 function render() {
-    fetch(`https://weapons-kg.herokuapp.com/products_page=${page}&_limit=6&q=${searchValue}`)
+    fetch(`https://weapons-kg.herokuapp.com/products/api_page=${page}&_limit=6&q=${searchValue}`)
         .then(res => res.json())
         .then(data => {
             $('.products-block').html('')
@@ -77,7 +77,7 @@ function render() {
 //Start Edit
 $('body').on('click', '.edit-btn', function () {
     let id = this.id
-    fetch(`https://weapons-kg.herokuapp.com/products${id}`)
+    fetch(`https://weapons-kg.herokuapp.com/products/api/${id}`)
         .then(res => res.json())
         .then(data => {
             $('.name-inp-edit').val(data.name)
@@ -107,7 +107,7 @@ $('.save-btn').on('click', function () {
         image: $('.image-inp-edit').val(),
         description: $('.description-inp-edit').val()
     }
-    fetch(`https://weapons-kg.herokuapp.com/products/${id}`, {
+    fetch(`https://weapons-kg.herokuapp.com/products/api/${id}`, {
         method: 'PATCH',
         body: JSON.stringify(editedProduct),
         headers: {
@@ -142,7 +142,7 @@ $('.add-btn').on('click', (e) => {
         image: $('.image-inp').val(),
         description: $('.description-inp').val()
     }
-    fetch(`https://weapons-kg.herokuapp.com/products`, {
+    fetch(`https://weapons-kg.herokuapp.com/products/api`, {
         method: 'POST',
         body: JSON.stringify(newProduct),
         headers: {
@@ -175,7 +175,7 @@ $('.add-main').on('click', () => {
 //Delete start
 $('body').on('click', '.delete-btn', function () {
     let id = this.id
-    fetch(`https://weapons-kg.herokuapp.com/products/${id}`, {
+    fetch(`https://weapons-kg.herokuapp.com/products/api/${id}`, {
         method: 'DELETE'
     })
         .then(() => render())
